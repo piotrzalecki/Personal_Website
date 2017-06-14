@@ -1,0 +1,83 @@
+
+div {
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
+div.main_div {
+max-width: 80%;
+margin: 0 auto;
+padding: 0px
+
+}
+
+
+p{
+
+  text-align: justify;
+}
+
+#employmen_history{
+
+  text-decoration: none;
+  font-size: 10px;
+  font-style: italic;
+    vertical-align:top;
+    border:0px;
+    padding: 0px;
+}
+
+
+td{
+
+padding-top: 10px;
+}
+
+td:nth-child(1){
+  vertical-align:top;
+width:25%;
+}
+
+
+
+div.home_page{
+  position: fixed;
+      bottom: 1px;
+      right: 1px;
+      width: 60px;
+      border:0px;
+      padding:0px;
+        border-radius: 0px;
+        background-color:#578CA9;
+        z-index: 1000;
+}
+
+img.home_page_link_logo{
+  width: 60px;
+  height: 30px;
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+div.home_page{
+  position: fixed;
+      top: 5px;
+      left: 5px;
+      width: 100px;
+      border:0px;
+      padding:0px;
+        border-radius: 0px;
+        background-color: #578CA9;
+}
+
+img.home_page_link_logo{
+  max-width: 150px;
+  max-height: 150px;
+
+}

@@ -1,0 +1,40 @@
+h5, tr {
+  color: #005960;
+}
+
+
+h5 {
+  margin:0px;
+  font-weight: bold;
+}
+
+p{
+text-align: justify;
+font-weight: normal;
+}
+
+
+table{
+width:80%;
+margin: 0 auto;
+padding: 0px;
+}
+
+td{
+padding-top: 10px;
+padding-right:5px;
+padding-bottom: 10px;
+vertical-align:top;
+}
+
+td.td_bold{
+font-weight: bold;
+}
+
+tr:nth-child(even) {
+background: #E6E6FA;
+}
+
+td:nth-child(1){
+width:15%;
+}

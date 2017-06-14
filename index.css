@@ -1,0 +1,59 @@
+
+body{
+
+  background-color: #578CA9;
+}
+
+/*! DIVS */
+
+div.panel:hover{
+box-shadow: 10px 10px 5px #004B8D;
+}
+
+div{
+padding:10px;
+background-color: white;
+border:0px;
+}
+
+div.main_div:only-child{
+box-shadow: 10px 10px 5px #004B8D;
+}
+
+div.row{
+  margin:0px;
+}
+
+div.main_div {
+max-width: 80%;
+margin: 0 auto;
+padding: 0px
+}
+
+div.sections_links{
+background-color: blue;
+border-radius: 500px;
+}
+
+/*NAVIGATION */
+
+nav{
+
+  color:#005960;
+}
+
+
+/*OTHER*/
+
+h1,h2,h3,p {
+  color: #005960;
+}
+
+
+
+img.subp_logo {
+  max-height: 150px;
+
+  margin: auto;
+ width: 50%;
+}
